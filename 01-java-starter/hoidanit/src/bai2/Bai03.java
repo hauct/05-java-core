@@ -1,9 +1,10 @@
-package hoidanit;
+package bai2;
 import java.util.Scanner;
 
-public class Lab1Bai3 {
+public class Bai03 {
     public static void main(String[] args) {
-    	int day = 4;
+    	Scanner scanner = new Scanner(System.in);
+		int day = scanner.nextInt();
     	switch (day) {
     	case 1:
     		System.out.println("Monday");
@@ -29,5 +30,6 @@ public class Lab1Bai3 {
     	default:
     		System.out.println("Invalid day");
     	}
+		scanner.close();
     }
 }
