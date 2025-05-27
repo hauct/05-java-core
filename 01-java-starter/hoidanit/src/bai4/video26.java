@@ -6,7 +6,7 @@ public class video26 {
         Student st1 = new Student();
         System.out.println("check obj:" +st1.getName());
 
-        Student st2 = new Student("Eric", 25);
+        Student st2 = new Student("Eric", 25, "Eric1");
         System.out.println("check obj:" +st2.getName());
     }
 }

@@ -5,14 +5,16 @@ public class Student {
     // class attributes
     private String name;
     private int age;
+    private String id;
 
     public Student (){
 
     }
 
-    public Student(String name, int age) {
+    public Student(String name, int age, String id) {
         this.name = name;
         this.age = age;
+        this.id = id;
     }   
 
 
@@ -32,9 +34,12 @@ public class Student {
         this.age = age;
     }
 
-    // class method
-    void learnJava() {
-        System.out.println("Learn Java with Youtube Hỏi Dân IT");
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
 

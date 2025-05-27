@@ -24,6 +24,12 @@ public class Video34 {
         }
         
         System.out.println("Danh sách vừa nhập: " + danhSach);
+        double tong = 0;
+        for(int i =0; i < danhSach.size(); i++) {
+            double so = danhSach.get(i);
+            tong += so;
+        }
+        System.out.println("Tổng các số trong danh sách: " + tong);
         scanner.close();
     }
 }

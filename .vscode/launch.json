@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Video38",
+            "request": "launch",
+            "mainClass": "hoidanit/bai6.Video38",
+            "projectName": "hoidanit"
+        },
+        {
+            "type": "java",
             "name": "Video34",
             "request": "launch",
             "mainClass": "hoidanit/bai5.Video34",
