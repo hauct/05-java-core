@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Video421",
+            "request": "launch",
+            "mainClass": "hoidanit/bai6.Video421",
+            "projectName": "hoidanit"
+        },
+        {
+            "type": "java",
+            "name": "Car",
+            "request": "launch",
+            "mainClass": "hoidanit/bai6.Car",
+            "projectName": "hoidanit"
+        },
+        {
+            "type": "java",
             "name": "Video38",
             "request": "launch",
             "mainClass": "hoidanit/bai6.Video38",
