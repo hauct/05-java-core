@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Video56",
+            "request": "launch",
+            "mainClass": "hoidanit/bai9.Video56",
+            "projectName": "hoidanit"
+        },
+        {
+            "type": "java",
+            "name": "Video53",
+            "request": "launch",
+            "mainClass": "hoidanit/bai9.Video53",
+            "projectName": "hoidanit"
+        },
+        {
+            "type": "java",
+            "name": "Video52",
+            "request": "launch",
+            "mainClass": "hoidanit/bai9.Video52",
+            "projectName": "hoidanit"
+        },
+        {
+            "type": "java",
+            "name": "Video50",
+            "request": "launch",
+            "mainClass": "hoidanit/bai8.Video50",
+            "projectName": "hoidanit"
+        },
+        {
+            "type": "java",
             "name": "Video47",
             "request": "launch",
             "mainClass": "hoidanit/bai8.Video47",
