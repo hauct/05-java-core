@@ -1,23 +1,23 @@
 package bai9;
 
 public class SinhVien {
-    private String masv;
+    private int masv;
     private String hoten;
     private double diem;
     private int age;
 
-    public SinhVien(String masv, String hoten, double diem, int age) {
+    public SinhVien(int masv, String hoten, double diem, int age) {
         this.masv = masv;
         this.hoten = hoten;
         this.diem = diem;
         this.age = age;
     }
 
-    public String getMasv() {
+    public int getMasv() {
         return masv;
     }
 
-    public void setMasv(String masv) {
+    public void setMasv(int masv) {
         this.masv = masv;
     }
 
